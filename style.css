@@ -1,0 +1,38 @@
+* {
+    background-color: #FFFBF1;
+    color: black;
+    text-decoration: none;
+}
+
+#nav-bar ul{
+    list-style-type: none;
+    margin:0;
+    padding: 0;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font: size 16px;
+    display:flex;
+    padding: 2% 6%;
+    justify-content:space-around;
+    align-items:center
+}
+
+#welcome-text {
+    text-align: center;
+    padding-top: 20px;
+}
+#home-face {
+    height:auto;
+    width:400px;
+    position: fixed;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+head {
+    padding:0;
+    width:100%;
+    background-position: center;
+    position:relative;
+}
+
